@@ -1,0 +1,32 @@
+{
+  "name": "02-simple-agent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "indexing": "tsx src/indexing.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.4",
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "@types/pg": "^8.15.4",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.3.48",
+    "@langchain/core": "^0.3.62",
+    "@langchain/google-genai": "^0.2.14",
+    "@langchain/langgraph": "^0.3.5",
+    "@langchain/textsplitters": "^0.1.0",
+    "dotenv": "^17.0.0",
+    "langchain": "^0.3.29",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.16.3",
+    "zod": "^3.25.74"
+  }
+}
